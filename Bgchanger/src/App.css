@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes updown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-800px); }
+    100% { transform: translateY(0); }
+}
+  .animate-updown {
+    animation: updown 5s infinite;
+}
+  
